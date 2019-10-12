@@ -1,0 +1,33 @@
+#grad {
+    background-image: linear-gradient(to bottom, #a51633 , #dc143c);
+    border-right-color: #a51633; 
+    border-left-color: #a51633; 
+}
+
+#grad2{
+    background-image: linear-gradient(to bottom, #dc143c , #a51633);
+    border-right-color: #a51633; 
+    border-left-color: #a51633; 
+}
+
+.topImage{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    z-index: 999;
+}
+
+.bottomImage{
+    position: absolute;
+    left: 100px;
+    top: 15px;
+    z-index: 999;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
