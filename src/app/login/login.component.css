@@ -1,0 +1,23 @@
+#inputs {
+    text-align: center;
+    margin-top: 35px;
+    height: 30px;
+}
+
+#buttonLogIn{
+    margin-top: 20px;
+}
+
+#divP{
+    display: inline-block;
+    border-style: groove;
+    border-color: rgb(136, 136, 136);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #divP{
+        height: 250px;
+        padding-bottom: 100px;
+    }
+}
