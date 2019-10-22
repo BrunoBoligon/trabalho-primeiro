@@ -10,10 +10,7 @@
 
 #divP{
     display: inline-block;
-    border-style: groove;
-    border-color: rgb(136, 136, 136);
     padding: 35px;
-    background-color: rgb(233, 233, 233);
 }
 
 @media only screen and (max-width: 600px) {
