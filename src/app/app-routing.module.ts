@@ -9,9 +9,10 @@ import { AtividadesComponent } from './atividades/atividades.component';
 const routes: Routes = [
 
   {path: 'home', component: HomeComponent},
-  {path: '', component: LoginComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'documents', component: DocumentsComponent},
-  {path: 'atividades', component: AtividadesComponent}
+  {path: 'atividades', component: AtividadesComponent},
+  {path: '', redirectTo: "/login", pathMatch: "full"}
 
 ];
 
