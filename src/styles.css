@@ -12,3 +12,7 @@ input{
 html{
     background-color: rgb(243, 243, 243);
 }
+
+.loginMargin{
+    margin-bottom: 100px;
+}

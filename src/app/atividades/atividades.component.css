@@ -6,6 +6,16 @@
 }
 
 #subDivs{
-    background-color: #a5163348;
-    padding: 125px 125px 125px 125px;
+    padding-left: 150px; 
+    padding-top: 15px; 
+    width: 45%; 
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #subDivs{
+        padding-left: 10px; 
+        padding-top: 15px; 
+        width: 100%; 
+    }
 }
