@@ -6,10 +6,17 @@
 }
 
 #subDivs{
-    padding-left: 150px; 
+    padding-left: 15px; 
     padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-right: 15px;
     width: 45%; 
     float: left;
+    border-width: 3px;
+    border-color: #a51633b0;
+    border-style: ridge;
+    margin: 10px;
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 600px) {
