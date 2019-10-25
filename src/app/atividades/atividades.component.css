@@ -1,0 +1,11 @@
+#divP{
+    display: inline-block;
+    border-color: #a51633b0;
+    border-style: ridge;
+    padding: 35px 125px 125px 35px;
+}
+
+#subDivs{
+    background-color: #a5163348;
+    padding: 125px 125px 125px 125px;
+}

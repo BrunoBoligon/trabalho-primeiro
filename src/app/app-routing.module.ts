@@ -4,7 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { AtividadesComponent } from './atividades/atividades.component';
-
+import { EntregaComponent } from './entrega/entrega.component';
+ 
 
 const routes: Routes = [
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'documents', component: DocumentsComponent},
   {path: 'atividades', component: AtividadesComponent},
+  {path: 'entregas', component: AtividadesComponent},
   {path: '', redirectTo: "/login", pathMatch: "full"}
 
 ];
@@ -26,4 +28,5 @@ export const routingComponents = [HomeComponent,
   LoginComponent, 
   DocumentsComponent, 
   AtividadesComponent, 
-  DocumentsComponent]
+  DocumentsComponent,
+  EntregaComponent]

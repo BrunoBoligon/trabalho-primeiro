@@ -11,6 +11,8 @@
 #divP{
     display: inline-block;
     padding: 35px;
+    border-color: #a51633;
+    border-style: ridge;
 }
 
 @media only screen and (max-width: 600px) {
