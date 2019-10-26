@@ -13,7 +13,21 @@
     width: 45%; 
     float: left;
     border-width: 3px;
-    border-color: #a51633b0;
+    border-color: #dc3545;
+    border-style: ridge;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#importantDiv{
+    padding-left: 15px; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 92%; 
+    float: left;
+    border-width: 3px;
+    border-color: #dc3545;
     border-style: ridge;
     margin: 10px;
     border-radius: 25px;
