@@ -34,8 +34,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    #subDivs{
-        padding-left: 0px; 
+    #subDivs{ 
         padding-top: 15px; 
         width: 100%; 
     }
