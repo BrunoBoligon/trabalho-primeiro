@@ -35,8 +35,17 @@
 
 @media only screen and (max-width: 600px) {
     #subDivs{
-        padding-left: 10px; 
+        padding-left: 0px; 
         padding-top: 15px; 
         width: 100%; 
     }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
 }
