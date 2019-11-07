@@ -12,8 +12,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'documents', component: DocumentsComponent},
-  {path: 'atividades', component: AtividadesComponent},
-  {path: 'entregas', component: EntregaComponent},
+  {path: 'activities', component: AtividadesComponent},
+  {path: 'deliveries', component: EntregaComponent},
   {path: '', redirectTo: "/login", pathMatch: "full"}
 
 ];
