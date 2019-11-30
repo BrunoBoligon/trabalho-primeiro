@@ -6,6 +6,7 @@
 #divP{
     display: inline-block;
     padding: 40px;
+    margin: 80px;
     border-width: 3px;
     border-color: #a51633b0;
     border-style: ridge;
